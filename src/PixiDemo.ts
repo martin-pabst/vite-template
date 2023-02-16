@@ -18,7 +18,7 @@ export class PixiDemo {
 
 
         PIXI.Assets.load('graphics/spritesheet.json').then(() => {
-            const texture = PIXI.Texture.from('TowerDefense#31');
+            const texture = PIXI.Texture.from('TowerDefense#30');
             const sprite = PIXI.Sprite.from(texture);
             sprite.position.x = 400;
             sprite.position.y = 300;
